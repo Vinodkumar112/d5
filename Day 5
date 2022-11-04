@@ -1,0 +1,4 @@
+const node = document.getElementById("myList2").lastChild;
+const clone = node.cloneNode(true);
+
+document.getElementById("myList1").appendChild(clone);
